@@ -1,0 +1,18 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "http://178.18.241.165:8134",
+      "localStorage": [
+        {
+          "name": "user",
+          "value": "{\"email\":\"neha.jadhav@nimapinfotech.com\",\"permissions\":[\"add user\",\"get user\",\"get user list\",\"update user\",\"delete user\",\"add role\",\"get role\",\"get role list\",\"update role\",\"delete role\",\"delete permission\",\"add permission\",\"get permission\",\"get permission list\",\"get role permission list\",\"add role permission list\",\"get role permission\",\"update role permission\",\"delete role permission\",\"get category\",\"delete category\",\"get category list\",\"add category list\",\"update category\",\"update product\",\"add product\",\"get product\",\"get product list\",\"delete product\",\"delete product image\",\"get product image\",\"get product image list\",\"add product image\",\"update product image\",\"create single sub-category\",\"fetch single sub-category\",\"update single sub-category\",\"get sub-category list\",\"delete sub-category\",\"create single vendor\",\"delete single vendor\",\"get single vendor\",\"get vendor list\",\"update vendor list\",\"get dashboard analytics\",\"get top product\",\"get near expiry product\",\"get sales report\",\"update campaign status\",\"update vendor status\",\"get order list\",\"update order status\",\"update order payment status\",\"update order delivery status\",\"get delivery status of order\"]}"
+        },
+        {
+          "name": "access_token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWEwMGE5NGIwNGE3ZjFlOTYwNzIzYzciLCJyb2xlSWQiOiI2OWFlM2JmMmYyODA2ODU2MTllZDMwZTIiLCJpYXQiOjE3NzU0NzgzNjUsImV4cCI6MTc3Njc3NDM2NX0.e1lvbQt8_TAE5kyjJzACtUd6S9Q1caRaVWugzbGdYRU"
+        }
+      ]
+    }
+  ]
+}
