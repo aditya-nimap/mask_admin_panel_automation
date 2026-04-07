@@ -16,7 +16,7 @@ export class LoginPage extends BasePage {
     // -- Actions --
 
     async goto(){
-        await this.page.goto('')
+        await this.page.goto('/login')
     }
 
     async fillEmail(email: string) {

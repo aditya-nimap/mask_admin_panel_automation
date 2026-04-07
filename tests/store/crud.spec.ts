@@ -1,12 +1,14 @@
-import { test, expect } from '@playwright/test';
+import { test } from '../../fixtures';
+import { itemsData } from '../../data/storeItem.factory';
 
 test.describe('Store CRUD Operations', () => {
 
-    test('should create a new store', async ({ page }) => {
+    test('Add a item', async ({ storePage }) => {
         // You are ALREADY logged in here! Just navigate directly to the page you need.
-        await page.goto('/store-management');
-
-        // -> Rest of your Playwright implementation here...
+        await storePage.goto();
+        await storePage.addItem(itemsData);
+        await storePage.expectAddSuccess();
+        await storePage.clickEditBtn();
     });
 
 });
